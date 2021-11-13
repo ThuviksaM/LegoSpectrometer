@@ -30,7 +30,7 @@
 	margin: 5px;
 	vertical-align: top;
 	border: 1px solid #999;
-	background-color: #EEEEEE;
+	background-color: #FFFFF0;
 }
 
 .logpage th {
@@ -46,7 +46,7 @@
 .logpage h2 {
 	font-size: 125%;
 	text-align: center;
-	color: #FFFFFF;
+	color: #000055;
 	background-color: #FFFFF0;
 	padding: 8px;
 }
