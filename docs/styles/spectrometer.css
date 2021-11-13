@@ -29,8 +29,8 @@
 	padding: 15px;
 	margin: 5px;
 	vertical-align: top;
-	border: 1px solid #999;
-	background-color: #FFFFF0;
+	border: none;
+	background-color: #FFFFFF; /* White */
 }
 
 .logpage th {
@@ -81,7 +81,7 @@
 	height: auto;
 }
 .logpage button {
-	background-color: #4B0082; /* Indigo */
+	background-color: #DC143C; /* Crimson */
 	border: none;
 	color: white;
 	margin-top: 10px;
