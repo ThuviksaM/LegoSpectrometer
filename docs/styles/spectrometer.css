@@ -47,7 +47,7 @@
 	font-size: 125%;
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #777777;
+	background-color: #FFFFF0;
 	padding: 8px;
 }
 
@@ -81,7 +81,7 @@
 	height: auto;
 }
 .logpage button {
-	background-color: #4CAF50; /* Green */
+	background-color: #4B0082; /* Indigo */
 	border: none;
 	color: white;
 	margin-top: 10px;
