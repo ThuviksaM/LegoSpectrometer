@@ -8,9 +8,8 @@
 }
 
 .logpage a {
-	background-color: #DC143C; /* Crimson */
+	color: #DC143C; /* Crimson */
 	border: none;
-	color: white;
 	margin-top: none;
 	padding: none;
 	text-align: center;
@@ -20,8 +19,7 @@
 }
 
 .logpage a:link a:visited a:active {
-	color: #D3D3D3;
-    background-color: #F08080;
+	color: #D3D3D3; /* LightCoral */
    	margin-top: none;
 	padding: none;
 	text-align: center;
@@ -31,9 +29,8 @@
 }
 
 .logpage a:hover {
-    background-color: #CD5C5C; /* IndianRed */
+    color: #CD5C5C; /* IndianRed */
     border: none;
-	color: white;
 	margin-top: none;
 	padding: none;
 	text-align: center;
