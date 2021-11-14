@@ -8,13 +8,15 @@
 }
 
 .logpage a:link a:visited a:active {
-	color: #222222;
+	color: #D3D3D3;
 	text-decoration: underline;
+    background-color: #F08080;
 }
 
 .logpage a:hover {
 	color: #777777;
 	text-decoration: underline;
+    background-color: #CD5C5C;
 }
 
 .logpage hr {
@@ -97,7 +99,7 @@
 .logpage button:hover {
     background-color: #CD5C5C; /* IndianRed */
     border: none;
-	color: white;
+	color: #777777;
 	margin-top: 10px;
 	padding: 10px 32px;
 	text-align: center;
