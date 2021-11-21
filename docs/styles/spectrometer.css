@@ -10,7 +10,8 @@
     background-image: url("/images/parallax.jpg");
 
     /* Set a specific height */
-    min-height: 10000px;
+    min-height: cover;
+    min-width: cover;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
