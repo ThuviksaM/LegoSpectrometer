@@ -14,7 +14,7 @@
 
     /* Set a specific height */
     min-height: cover;
-    min-width: cover;
+    max-width: cover;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
