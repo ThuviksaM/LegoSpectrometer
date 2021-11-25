@@ -11,31 +11,6 @@
 </head>
 
 <body>
-	<!-- JavaScript source -->
-  	<script>
-    function myFunction() {
-      // Declare variables
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("logInput");
-      filter = input.value.toUpperCase();
-      table = document.getElementById("logTable");
-      tr = table.getElementsByTagName("tr");
-
-      // Loop through all table rows, and hide those who don't match the search query
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[0];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-          } else {
-            tr[i].style.display = "none";
-          }
-        }
-      }
-    }
-    </script>
-	
     <div class="logpage">
         
         <input type="text" id="logInput" onkeyup="filterSpectra()" placeholder="Filter spectra..">
@@ -71,5 +46,31 @@
             <a href="experiment-20211113-171803.html" target="_blank"><button>Learn More</button></a></td></tr>
         </table>
     </div>
+    
+    <!-- JavaScript source -->
+  	<script>
+    function myFunction() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("logInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("logTable");
+      tr = table.getElementsByTagName("tr");
+
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+    </script>
+    
 </body>
 </html>
