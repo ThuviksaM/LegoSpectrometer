@@ -5,15 +5,40 @@
   <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
   
   <!-- CSS/Stylesheet source -->
-  <link href="styles/spectra.css" rel="stylesheet" type="text/css">
+  <link href="other-CS_languages/spectra.css" rel="stylesheet" type="text/css">
 
   <!-- Favicon setup/source -->
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
 </head>
 
 <body>
+    
+     <!-- JavaScript source -->
+  	<script src="">
+    function filterSpectra() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("searchInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("summaryTable");
+      tr = table.getElementsByTagName("tr");
+
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+    </script>
+    
     <div class="logpage">
-        
         
         <tr id="header"><td><h2>Lego Spectrometer</h2>
     This is part 2 or the Spectrometer part of my <a href="https://thuviksam.github.io/Berry_Blob">Berry_Blob</a> software. Fork my <a href="https://github.com/ThuviksaM/LegoSpectrometer">LegoSpectrometer repository</a> or copy the code in the notebooks, then setup <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a>, and you might have your very own spectra log book!
@@ -48,31 +73,6 @@
             <a href="experiment-20211113-171803.html" target="_blank"><button>Learn More</button></a></td></tr>
         </table>
     </div>
-    
-    <!-- JavaScript source -->
-  	<script>
-    function filterSpectra() {
-      // Declare variables
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("searchInput");
-      filter = input.value.toUpperCase();
-      table = document.getElementById("summaryTable");
-      tr = table.getElementsByTagName("tr");
-
-      // Loop through all table rows, and hide those who don't match the search query
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[0];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-          } else {
-            tr[i].style.display = "none";
-          }
-        }
-      }
-    }
-    </script>
     
 </body>
 </html>
