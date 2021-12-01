@@ -1,8 +1,8 @@
-/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------
 
 #header {
-  text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
+  text-align: left; /* Left-align text
+  padding: 12px; /* Add padding
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -24,7 +24,7 @@
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
