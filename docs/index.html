@@ -15,7 +15,7 @@
 
     <!-- JavaScript source -->
     <script>
-        /*function filterSpectra() {
+        function filterSpectra() {
             // Declare variables
             var input, filter, table, tr, td, i, txtValue;
             input = document.getElementById("searchInput");
@@ -35,7 +35,7 @@
                 }
                 }
             }
-        } */
+        }
 
     </script>
 
@@ -51,12 +51,23 @@
                         <h3>SpecStream</h3>
                         <p>Watch spectrums produced LIVE straight from my hand-built Spectrometer! This is just like seeing the raw spectra picture of one of the experiments below, but LIVE!</p>
 
-                        <button id="watchBtn">Watch Live</button>
-
-                        <div id="videoModal" class="modal">
+                    <button id="watchBtn">Watch Live</button>
+                    
+                    <!-- The Modal -->
+                    <div id="videoModal" class="modal">
+                        
+                        <!-- Modal Content -->
+                        <div id="modalVideo" class="video">
+                            
+                            <!-- Close Button for the Modal -->
+                            <span class="closeModal">&times;</span>
+                            
                             <!-- Live streaming spectrum from the SpectrometerControlGUI IPython Notebook in Jupyter Notebooks -->
                             <video width="320" height="240" controls autoplay><source src=""></video>
+                            
                         </div>
+                    </div>
+                    
                </td><tr>
             </td></tr>
             
