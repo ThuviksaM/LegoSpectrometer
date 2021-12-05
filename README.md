@@ -1,5 +1,3 @@
-# [LegoSpectrometer 🌇](https://github.com/ThuviksaM/LegoSpectrometer)
+# [LegoSpectrometer 🌄](https://github.com/ThuviksaM/LegoSpectrometer)
 
-Software for ORCSGirls Masterclass using the <a href="https://publiclab.org/wiki/lego-spectrometer">Lego Spectrometer</a>. Curious about the spectra - checkout the <a href="https://tproffen.github.io/LegoSpectrometer/">Spectrometer Log Book</a>.
-
-Enjoy.
+Part two of my [Berry_Blob](https://github.com/ThuviksaM/Berry_Blob) software using the [Lego Spectrometer](https://publiclab.org/wiki/lego-spectrometer). Curious to see the spectra I have collected, so far? Check out my [Spectromter Log Page](https://thuviksam.github.io/LegoSpectrometer)!
