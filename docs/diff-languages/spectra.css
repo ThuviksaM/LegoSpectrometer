@@ -44,15 +44,15 @@
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
   font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
+  padding: 12px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
+  margin-top: 12px; /* Add some spce above the input */
   margin-bottom: 12px; /* Add some space below the input */
 }
 
 #summaryTable {
   border-collapse: collapse; /* Collapse borders */
   width: 100%; /* Full-width */
-  border: 1px solid #ddd; /* Add a grey border */
   font-size: 18px; /* Increase font-size */
 
 }
@@ -60,11 +60,6 @@
 #summaryTable th, #myTable td {
   text-align: left; /* Left-align text */
   padding: 12px; /* Add padding */
-}
-
-#summaryTable tr {
-  /* Add a bottom border to all table rows */
-  border-bottom: 1px solid #ddd;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -185,6 +180,7 @@
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .logpage button:hover {
@@ -200,41 +196,3 @@
 }
 
 /*--------------------------------------------------------------------------------------*/
-
-/* The Modal (background) */
-.videoModal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modalVideo {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.closeModal {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.closeModal:hover,
-.closeModal:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
