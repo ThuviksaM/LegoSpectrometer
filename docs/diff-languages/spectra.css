@@ -50,18 +50,6 @@
   margin-bottom: 12px; /* Add some space below the input */
 }
 
-#summaryTable {
-  border-collapse: collapse; /* Collapse borders */
-  width: 100%; /* Full-width */
-  font-size: 18px; /* Increase font-size */
-
-}
-
-#summaryTable th, #myTable td {
-  text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
-}
-
 /*--------------------------------------------------------------------------------------*/
 
 .logpage a {
@@ -115,6 +103,8 @@
 	vertical-align: top;
 	border: none;
 	background-color: #FFFFFF; /* White */
+    width: 100%; /* Full-width */
+    font-size: 18px; /* Increase font-size */
 }
 
 .logpage th {
