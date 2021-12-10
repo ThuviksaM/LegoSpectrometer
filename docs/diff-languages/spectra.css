@@ -153,6 +153,8 @@
 	text-align: center;
 	color: White;
 	background-color: Black;
+    border-bottom: 1px solid Crimson;
+    border-top: 1px solid Crimson;
 	padding: 10px;
 }
 
