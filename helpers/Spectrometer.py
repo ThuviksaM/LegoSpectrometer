@@ -189,7 +189,8 @@ class Spectrometer():
 
         self.status.value = "Creating web pages .."
         self.createHTML()
-        self.updateLight("#000000")
+        if(self.neopixel):
+            self.updateLight("#000000")
         
         self.status.value = "Done .."
 
