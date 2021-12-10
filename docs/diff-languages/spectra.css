@@ -136,8 +136,9 @@
 }
 
 .logpage hr {
-    color: Crimson;
-    width: 1px;
+    background-color: Crimson;
+    width: default;
+    height: 1px;
 }
 
 /*--------------------------------------------------------------------------------------*/
