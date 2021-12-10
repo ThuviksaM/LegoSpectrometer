@@ -144,7 +144,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-color: Black;
-    border: 5px solid Crimson;
+    border: 1px solid Crimson;
 	width: 95%;
 }
 
@@ -153,7 +153,6 @@
 	text-align: center;
 	color: White;
 	background-color: Black;
-    border: 5px solid Crimson;
 	padding: 10px;
 }
 
