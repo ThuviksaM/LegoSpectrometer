@@ -9,7 +9,7 @@
 
 .logpage {
     /* General */
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Lucida Sans Typewriter", "Courier New", Courier, monospace;
 	font-size: 100%;
    	color: White;
 	margin: 5px;
@@ -175,9 +175,9 @@
 /*--------------------------------------------------------------------------------------*/
 
 .logpage button {
-	background-color: #DC143C; /* Crimson */
+	background-color: Crimson;
 	border: none;
-	color: white;
+	color: White;
 	margin-top: 30px;
 	padding: 10px 32px;
 	text-align: center;
@@ -188,9 +188,9 @@
 }
 
 .logpage button:hover {
-    background-color: #CD5C5C; /* IndianRed */
+    background-color: IndianRed;
     border: none;
-	color: white;
+	color: White;
 	margin-top: 30px;
     padding: 10px 32px;
 	text-align: center;
