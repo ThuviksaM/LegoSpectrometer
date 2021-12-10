@@ -143,7 +143,8 @@
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #8b8589;
+	background-color: Black;
+    border: 5px solid Crimson;
 	width: 95%;
 }
 
@@ -151,7 +152,8 @@
 	font-size: 110%;
 	text-align: center;
 	color: White;
-	background-color: #8b8589;
+	background-color: Black;
+    border: 5px solid Crimson;
 	padding: 10px;
 }
 
