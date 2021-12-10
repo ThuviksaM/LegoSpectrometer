@@ -115,6 +115,7 @@
 
 .logpage h1 {
 	font-size: 150%;
+    color: White;
 	text-align: center;
 	padding: 8px;
 }
@@ -122,7 +123,7 @@
 .logpage h2 {
 	font-size: 125%;
 	text-align: center;
-	color: #000000;
+	color: White;
 	background-color: none;
 	padding: 8px;
 }
@@ -130,7 +131,7 @@
 .logpage h3 {
 	font-size: 110%;
 	text-align: left;
-	color: #000000;
+	color: White;
 	padding-bottom: 10px;
 }
 
