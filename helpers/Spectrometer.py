@@ -164,7 +164,7 @@ class Spectrometer():
         self.setLCD(self.processed)
 
         self.status.value = "Scaling .."
-        self.processed = self.adjustBrightness(self.processed)
+        #self.processed = self.adjustBrightness(self.processed)
 
         self.status.value = "Converting to spectrum .."
         self.wavelength, self.spectrum = self.getSpectrum(self.processed, self.waveL1, self.waveL2, 
