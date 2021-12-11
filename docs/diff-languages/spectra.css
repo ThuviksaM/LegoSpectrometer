@@ -89,17 +89,13 @@
 
 /*--------------------------------------------------------------------------------------*/
 
-.logpage hr {
-	color: #DDDDDD;
-}
-
 .logpage table {
 	width: 100%;
 }
 
 .logpage tr, td, th {
-	padding: 11px;
-	margin: 5px;
+	padding: none;
+	margin: none;
 	vertical-align: top;
 	border: none;
     color: White;
