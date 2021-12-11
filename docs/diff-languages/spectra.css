@@ -39,9 +39,9 @@
 /*--------------------------------------------------------------------------------------*/
 
 #searchInput {
-  background-image: url('/images/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
+  /*background-image: url('/images/searchicon.png'); /* Add a search icon to input */
+  /*background-position: 10px 12px; /* Position the search icon */
+  /*background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
   font-size: 16px; /* Increase font-size */
   padding: 12px; /* Add some padding */
@@ -50,6 +50,18 @@
   margin-bottom: 12px; /* Add some space below the input */
   background-color: #181818;
   color: White;
+}
+
+#searchInput:active {
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px; /* Add some padding */
+  border: 1px solid Pink;
+  margin-top: 12px; /* Add some space above the input */
+  margin-bottom: 12px; /* Add some space below the input */
+  background-color: #181818;
+  color: White;
+    
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
