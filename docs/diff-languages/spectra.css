@@ -12,8 +12,8 @@
 	font-family: "Lucida Sans Typewriter", "Courier New", Courier, monospace;
 	font-size: 100%;
    	color: White;
-	margin: 9px;
-   	padding: 0px;
+	margin: 5px;
+   	padding: 5px;
     
     /* The image used */
     background-image: url("/images/parallax.jpg");
@@ -95,7 +95,7 @@
 
 .logpage tr, td, th {
 	padding: 15px;
-	margin: none;
+	margin: 5px;
 	vertical-align: top;
 	border: none;
     color: White;
