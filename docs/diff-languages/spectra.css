@@ -117,9 +117,12 @@
 	background-color: Black;
     width: 100%; /* Full-width */
     font-size: 100%; /* Increase font-size */
+    text-align: left;
 }
 
 .logpage th {
+    height: 5%;
+    font-weight: normal;
 }
 
 .logpage h1 {
