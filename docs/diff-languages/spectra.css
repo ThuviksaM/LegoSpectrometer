@@ -94,7 +94,7 @@
 }
 
 .logpage tr, td, th {
-	padding: none;
+	padding: 15px;
 	margin: none;
 	vertical-align: top;
 	border: none;
