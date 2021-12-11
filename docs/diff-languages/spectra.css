@@ -61,7 +61,7 @@
 	text-align: center;
 	text-decoration: underline;
 	display: inline-block;
-	font-size: 11px;
+	font-size: 100%;
 }
 
 .logpage a:link a:visited a:active {
@@ -72,7 +72,7 @@
 	text-align: center;
 	text-decoration: underline;
 	display: inline-block;
-	font-size: 11px;
+	font-size: 100%;
 }
 
 .logpage a:hover {
@@ -84,7 +84,7 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 11px;
+	font-size: 100%;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -105,7 +105,7 @@
     color: White;
 	background-color: Black;
     width: 100%; /* Full-width */
-    font-size: 15px; /* Increase font-size */
+    font-size: 100%; /* Increase font-size */
 }
 
 .logpage th {
@@ -183,7 +183,7 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 11px;
+	font-size: 100%;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -196,7 +196,7 @@
 	text-align: center;
 	text-decoration: underline;
 	display: inline-block;
-	font-size: 11px;
+	font-size: 100%;
 }
 
 /*--------------------------------------------------------------------------------------*/
