@@ -84,7 +84,7 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -98,14 +98,14 @@
 }
 
 .logpage tr, td, th {
-	padding: 15px;
+	padding: 14px;
 	margin: 5px;
 	vertical-align: top;
 	border: none;
     color: White;
 	background-color: Black;
     width: 100%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
+    font-size: 15px; /* Increase font-size */
 }
 
 .logpage th {
@@ -183,7 +183,7 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
