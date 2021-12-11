@@ -14,39 +14,18 @@
 <body>
 
     <!-- JavaScript source -->
-    <script>
-        
-        // Declare variables
-        var input, filter, table, tags, td, i, txtValue;
-        input = document.getElementById("searchInput");
-        filter = input.value.toUpperCase();
-        table = document.getElementById("summaryTable");
-        tr = table.getElementsByTagName("tr");
-        
-        // Loop through all the table rows, and hide those who don't match the search queary
-        for (i = 0; i < tr.length; i++) {
-        tags = tr[i].getElementsByTagName("tags")[0];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-          } else {
-            tr[i].style.display = "none";
-          }
-        }       
-        }
-        
+    <script src="diff-languages/spectra.js">
     </script>
 
     <div class="logpage">
         <table id="summaryTable">
-            <tr><td>
+            <tr><th>
                     <h2>Lego Spectrometer</h2>
             This is part 2 or the Spectrometer part of my <a href="https://thuviksam.github.io/Berry_Blob">Berry_Blob</a> software. Fork my <a href="https://github.com/ThuviksaM/LegoSpectrometer">LegoSpectrometer repository</a> or copy the code in the notebooks, then setup <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a>, and you might have your very own spectra log book!
                     <input type="text" id="searchInput" onkeyup="filterSpectra();" placeholder="Filter spectra..">
                     <button class="btn btn-primary" onClick="location.reload();">Reload</button>
                     <a href="specstream.html" target="_blank"><button>Watch Live Spectra</button></a>
-                <tr><td>
+                <tr><th>
                     
                </td><tr>
             </td></tr>
