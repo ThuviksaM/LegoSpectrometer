@@ -12,8 +12,8 @@
 	font-family: "Lucida Sans Typewriter", "Courier New", Courier, monospace;
 	font-size: 100%;
    	color: White;
-	margin: 0px;
-   	padding: 0px;
+	margin: 15px;
+   	padding: 15px;
     
     /* The image used */
     background-image: url("/images/parallax.jpg");
@@ -46,14 +46,14 @@
   font-size: 16px; /* Increase font-size */
   padding: 12px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
-  margin-top: 12px; /* Add some spce above the input */
+  margin-top: 12px; /* Add some space above the input */
   margin-bottom: 12px; /* Add some space below the input */
 }
 
 /*--------------------------------------------------------------------------------------*/
 
 .logpage a {
-	color: #DC143C; /* Crimson */
+	color: Crimson;
     background-color: none;
 	border: none;
 	margin-top: none;
@@ -61,22 +61,22 @@
 	text-align: center;
 	text-decoration: underline;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 11px;
 }
 
 .logpage a:link a:visited a:active {
-	color: #D3D3D3; /* LightCoral */
+	color: LightCoral;
     background-color: none;
    	margin-top: none;
 	padding: none;
 	text-align: center;
 	text-decoration: underline;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 11px;
 }
 
 .logpage a:hover {
-    color: #CD5C5C; /* IndianRed */
+    color: IndianRed;
     background-color: none;
     border: none;
 	margin-top: none;
@@ -84,7 +84,7 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 11px;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -98,7 +98,7 @@
 }
 
 .logpage tr, td, th {
-	padding: 14px;
+	padding: 11px;
 	margin: 5px;
 	vertical-align: top;
 	border: none;
@@ -183,7 +183,7 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 11px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -196,7 +196,7 @@
 	text-align: center;
 	text-decoration: underline;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 11px;
 }
 
 /*--------------------------------------------------------------------------------------*/
