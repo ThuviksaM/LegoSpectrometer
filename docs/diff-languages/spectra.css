@@ -189,7 +189,7 @@
 	height: auto;
 }
 
-#spectrum {
+#spectrum img {
     filter: invert(100%);
 }
 
