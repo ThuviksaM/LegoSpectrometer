@@ -191,7 +191,7 @@
 
 /*--------------------------------------------------------------------------------------*/
 
-.logpage button {
+.logpage button .download {
 	background-color: Crimson;
 	border: none;
 	color: White;
@@ -204,7 +204,7 @@
 	font-family: "Trebuchet MS", Helvetica, Verdana, sans-serif;
 }
 
-.logpage button:hover {
+.logpage button:hover .download:hover {
     background-color: IndianRed;
     border: none;
 	color: White;
