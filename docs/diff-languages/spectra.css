@@ -191,7 +191,7 @@
 
 /*--------------------------------------------------------------------------------------*/
 
-.logpage button .download {
+.logpage button {
 	background-color: Crimson;
 	border: none;
 	color: White;
@@ -204,7 +204,7 @@
 	font-family: "Trebuchet MS", Helvetica, Verdana, sans-serif;
 }
 
-.logpage button:hover .download:hover {
+.logpage button:hover {
     background-color: IndianRed;
     border: none;
 	color: White;
@@ -219,3 +219,29 @@
 }
 
 /*--------------------------------------------------------------------------------------*/
+
+.download {
+    background-color: Crimson;
+	border: none;
+	color: White;
+	margin-top: 30px;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 100%;
+	font-family: "Trebuchet MS", Helvetica, Verdana, sans-serif;
+}
+
+.download:hover {
+    background-color: IndianRed;
+    border: none;
+	color: White;
+	margin-top: 30px;
+    padding: 10px 32px;
+	text-align: center;
+	text-decoration: underline;
+	display: inline-block;
+	font-size: 100%;
+    font-family: "Trebuchet MS", Helvetica, Verdana, sans-serif;
+}
