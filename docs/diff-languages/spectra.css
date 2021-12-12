@@ -68,7 +68,7 @@
 /*--------------------------------------------------------------------------------------*/
 
 .logpage a {
-	color: DarkTurquoise;
+	color: DodgerBlue;
     background-color: none;
 	border: none;
 	margin-top: none;
@@ -91,7 +91,7 @@
 }
 
 .logpage a:hover {
-    color: DodgerBlue;
+    color: DarkTurquoise;
     background-color: none;
     border: none;
 	margin-top: none;
@@ -148,7 +148,7 @@
 }
 
 .logpage hr {
-    background-color: DarkTurquoise;
+    background-color: DodgerBlue;
     width: default;
     height: 1px;
     border: none;
@@ -168,9 +168,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-color: Black;
-    border-bottom: 1px solid DarkTurquoise;
-    border-left: 1px solid DarkTurquoise;
-    border-right: 1px solid DarkTurquoise;
+    border-bottom: 1px solid DodgerBlue;
+    border-left: 1px solid DodgerBlue;
+    border-right: 1px solid DodgerBlue;
 	width: 95%;
 }
 
@@ -179,8 +179,8 @@
 	text-align: center;
 	color: White;
 	background-color: Black;
-    border-bottom: 1px solid DarkTurquoise;
-    border-top: 1px solid DarkTurquoise;
+    border-bottom: 1px solid DodgerBlue;
+    border-top: 1px solid DodgerBlue;
 	padding: 10px;
 }
 
@@ -192,7 +192,7 @@
 /*--------------------------------------------------------------------------------------*/
 
 .logpage button {
-	background-color: DarkTurquoise;
+	background-color: DodgerBlue;
 	border: none;
 	color: White;
 	margin-top: 30px;
