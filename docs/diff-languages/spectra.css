@@ -80,7 +80,7 @@
 }
 
 .logpage a:link a:visited a:active {
-	color: DodgerBlue;
+	color: DeepSkyBlue;
     background-color: none;
    	margin-top: none;
 	padding: none;
@@ -91,7 +91,7 @@
 }
 
 .logpage a:hover {
-    color: DeepSkyBlue;
+    color: DodgerBlue;
     background-color: none;
     border: none;
 	margin-top: none;
