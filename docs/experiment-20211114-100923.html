@@ -9,42 +9,46 @@
 <body>    
     <div class="logpage">
 
-        <table><tr><td>
-        <h2>Lego Spectrometer</h2>
-        <img src="images/light-bulb.png" width="100" align="right">
-        <h3>Measurement taken on Sunday, November 14, 2021 at 10:09 AM</h3>
-        
-        Scientist: <strong>Thuviksa Mathialakan</strong><br>
-        <hr>
-        Light source: <strong>My Sparrow Mini Flashlight</strong><br>
-        Transmission sample: <strong>None</strong><br>
-        Exposure: <strong>50001 &micro;sec</strong><br>
-        <hr>
-        <h3>Experiment notes</h3>
-        
-This is a measurement for an experiment testing the difference between reflected and not-reflected light.
-Sparkly rainbow cardboard used to reflect flashlight light.
-Tracing paper used between light and entrance slit. 
-Small slit used.
+        <table>
+            <tr><td>
+                <h2>Lego Spectrometer</h2>
+                <img src="images/light-bulb.png" width="100" align="right" />
+                <h3>Measurement taken on Sunday, November 14, 2021 at 10:09 AM</h3>
 
-        </td></tr>
+                Scientist: <strong>Thuviksa Mathialakan</strong><br>
+                <hr>
+                Light source: <strong>My Sparrow Mini Flashlight</strong><br>
+                Transmission sample: <strong>None</strong><br>
+                Exposure: <strong>50001 &micro;sec</strong><br>
+                <hr>
+                <h3>Experiment notes</h3>
 
-  	<tr><td>
-        <h2>Images</h2>
-        <div class="imagefields">
-            <h3>Raw image</h3>
-            <img src="images/raw-20211114-100923.jpg">
+                This is a measurement for an experiment testing the difference between reflected and not-reflected light.
+                Sparkly rainbow cardboard used to reflect flashlight light.
+                Tracing paper used between light and entrance slit. 
+                Small slit used.
 
-            <h3>Processed image</h3>
-            <img src="images/processed-20211114-100923.jpg">
+            </td></tr>
 
-            <h3>Spectrum</h3>
-            <img src="images/spectrum-20211114-100923.jpg">
-        </div>
-	</td></tr>
-  	<tr><td>
-        <a href="data/spectrum-20211114-100923.csv" download>Download Data</a>
-	</td></tr>
+            <tr><td>
+                <h2>Images</h2>
+                <div class="imagefields">
+                    <h3>Raw image</h3>
+                    <img src="images/raw-20211114-100923.jpg" />
+
+                    <h3>Processed image</h3>
+                    <img src="images/processed-20211114-100923.jpg" />
+
+                    <h3>Spectrum</h3>
+                    <img src="images/spectrum-20211114-100923.jpg" />
+                </div>
+            </td></tr>
+            <tr><td>
+                <h2>Data</h2>
+                <form>
+                    <input id="download" type="button" value="Download Data vvv" onClick="windows.location.href='data/spectrum-20211114-100923.csv'" />
+                </form>
+            </td></tr>
         </table>
     </div>
 </body>
